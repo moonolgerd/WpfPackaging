@@ -9,7 +9,7 @@
   <Identity
     Name="3ceed25b-d546-4f9d-85ea-145779c949ad"
     Publisher="CN=Contoso Software, O=Contoso Corporation, C=US"
-    Version="1.0.18.0" />
+    Version="1.0.19.0" />
 
   <Properties>
     <DisplayName>WpfPackaging.Setup</DisplayName>
