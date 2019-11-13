@@ -11,7 +11,7 @@
             <RowDefinition Height="*" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <TextBlock x:Name="versionLabel" FontSize="35" Foreground="GreenYellow" />
+        <TextBlock x:Name="versionLabel" FontSize="35" Foreground="DarkGreen" />
         <InkCanvas Grid.Row="1"/>
     </Grid>
 </Window>

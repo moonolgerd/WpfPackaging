@@ -1,6 +1,6 @@
-﻿//using Microsoft.AppCenter;
-//using Microsoft.AppCenter.Analytics;
-//using Microsoft.AppCenter.Crashes;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using System.Windows;
 
 namespace WpfPackaging
@@ -19,7 +19,7 @@ namespace WpfPackaging
         {
             base.OnStartup(e);
             
-            //AppCenter.Start("1dccce3e-e16e-4af0-afc8-359bc8425437", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("1dccce3e-e16e-4af0-afc8-359bc8425437", typeof(Analytics), typeof(Crashes));
         }
 
         private void App_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
